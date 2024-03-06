@@ -13,3 +13,4 @@ npm install html-webpack-plugin --save-dev
 npm install --save-dev webpack-dev-server
 npx webpack-dev-server
 npm install -g json-server
+json-server --watch database.json

@@ -1,0 +1,19 @@
+{
+  "name": "index.html",
+  "version": "1.0.0",
+  "description": "E13",
+  "main": "index.js",
+  "scripts": {
+    "test": "document.write('Hello world!')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "moduleE13_homework"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}

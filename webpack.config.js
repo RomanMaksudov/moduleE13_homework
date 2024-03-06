@@ -16,7 +16,10 @@ module.exports = {
     },
     devServer: {
         static: './dist',
-        port: 3001
+        port: 3001,
+        contentBase: './dist',
+        hot: true,
     },
+    devtool: 'inline-source-map',
   };
   

@@ -9,4 +9,7 @@ npm init
 npm install webpack webpack-cli --save-dev
 npx webpack
 npm install parcel-bundler --dev
+npm install html-webpack-plugin --save-dev
 npm install --save-dev webpack-dev-server
+npx webpack-dev-server
+npm install -g json-server

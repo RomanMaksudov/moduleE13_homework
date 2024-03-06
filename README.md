@@ -7,3 +7,6 @@
 Команды для реализации:
 npm init
 npm install webpack webpack-cli --save-dev
+npx webpack
+npm install parcel-bundler --dev
+npm install --save-dev webpack-dev-server

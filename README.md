@@ -14,3 +14,7 @@ npm install --save-dev webpack-dev-server
 npx webpack-dev-server
 npm install -g json-server
 json-server --watch database.json
+npm install eslint-webpack-plugin --save-dev
+npx eslint --init
+npm install --save-dev commitizen eslint
+npm run commit

@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -7,8 +8,11 @@ module.exports = {
      static: './dist',
    },
     plugins: [
-           new HtmlWebpackPlugin({
+        new HtmlWebpackPlugin({
         title: 'Development',
+      }),
+        new ESLintPlugin({
+        extensions: ['main.js',],
       }),
     ],
     output: {
